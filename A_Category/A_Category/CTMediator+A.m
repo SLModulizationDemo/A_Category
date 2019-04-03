@@ -10,9 +10,6 @@
 
 @implementation CTMediator (A)
 - (UIViewController *)A_viewController {
-    /*
-     AViewController *vc = [[AViewController alloc] init];
-     */
     return [self performTarget:@"A"
                         action:@"viewController"
                         params:nil
